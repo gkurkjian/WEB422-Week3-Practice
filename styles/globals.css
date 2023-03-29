@@ -11,6 +11,11 @@ a {
   text-decoration: none;
 }
 
+/* This is practicing purposes */
+.coolImage {
+  border: 1px dashed red;
+}
+
 * {
   box-sizing: border-box;
 }

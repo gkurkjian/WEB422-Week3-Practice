@@ -8,6 +8,10 @@ export default function ShowImg() {
 
             {/* This is the right way to pass the values in JSX */}
             <img src={imgURL} alt={"seneca-college-img"} />
+
+            <br />
+            {/* The class name passed it must be className="..." not class="..." */}
+            <img className="coolImage" src={imgURL} alt={"second-seneca-college-img"}/>
         </>
     )
 }

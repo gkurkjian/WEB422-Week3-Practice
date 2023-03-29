@@ -7,6 +7,8 @@ export default function SayMessage(props) {
     )
 }
 
+// handles the solution that occurs with missing properties
 SayMessage.defaultProps = {
-    msg : "Hello World!"
+    msg : "Hello World!",
+    exclamation: "!"
 }

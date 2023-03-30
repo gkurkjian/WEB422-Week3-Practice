@@ -21,4 +21,4 @@ npm run dev
 * Dynamic Clock Intervals
 
 ## Personal Note
-<img src="../my-app/week3-web422-notes.jpg" width="400" height="400" />
+<img src="../my-app/week3-web422-notes.jpg" width="400" height="400" alt="personal-note-img"/>

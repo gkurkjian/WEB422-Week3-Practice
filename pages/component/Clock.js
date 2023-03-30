@@ -6,7 +6,9 @@ export default function Clock(props) {
     const [ date, setDate ] = useState();
 
     useEffect(() => {
+        console.log("set Interval");
         let myInterval = setInterval(() => {
+            console.log("executing Interval")
             setDate(new Date());
         }, 1000);
 

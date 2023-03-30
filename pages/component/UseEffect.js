@@ -5,7 +5,7 @@ export default function UseState() {
 
     // use state takes 2 parameters
     // it takes first parameter as an function and 2nd as an array
-    useEffect(() => {
+    useEffect(() => {  // Never pass dynamic variables or functions inside the useEffect like useEffect((new Date()) => {})
         console.log("here we're in useEffect()")
         fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
